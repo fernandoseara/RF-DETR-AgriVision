@@ -1,0 +1,14 @@
+path: /home/fernando/RF-DETR-AgriVision/data/sorghum_converted/
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['RipeSorghum', 'UnripeSorghum']
+
+roboflow:
+  workspace: school-7bbpa
+  project: sorghum-detection-umdpo
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-7bbpa/sorghum-detection-umdpo/dataset/3
