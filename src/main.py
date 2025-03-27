@@ -1,1 +1,0 @@
-from rfdetr import RFDETRLarge
